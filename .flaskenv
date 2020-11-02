@@ -1,4 +1,4 @@
 FLASK_ENV=development
-FLASK_APP=app
+FLASK_APP=wakeup:app
 FLASK_DEBUG=True
 FLASK_RUN_PORT=9000

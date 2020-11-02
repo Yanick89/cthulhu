@@ -1,14 +1,14 @@
 [tool.poetry]
 name = "Cthulhu"
 version = "0.0.1"
-description = "CMS a la Flask"
+description = "CMS/ERP sobre Python-AppBuilder"
 authors = ["Mario Hernandez <yo@mariofix.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-flask = "^1.1.2"
 python-dotenv = "^0.14.0"
-peewee = "^3.13.3"
+Flask-AppBuilder = "^3.1.1"
+python3-openid = "^3.2.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.0.1"
